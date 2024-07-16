@@ -1,0 +1,24 @@
+# Ignore target directory
+/target/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore build artifacts
+*.jar
+*.war
+*.ear
+
+# Ignore application properties
+/application.properties
+
+# Ignore log files
+/logs/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Maven specific files
+mvnw
+mvnw.cmd
