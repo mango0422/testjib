@@ -9,6 +9,7 @@
 *.jar
 *.war
 *.ear
+!gradle/wrapper/gradle-wrapper.jar
 
 # Ignore application properties
 /application.properties
@@ -19,6 +20,6 @@
 # Ignore temporary files
 *.tmp
 
-# Ignore Maven specific files
-mvnw
-mvnw.cmd
+# Keep Gradle wrapper files
+!gradlew
+!gradlew.bat
